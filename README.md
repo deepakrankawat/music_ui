@@ -1,16 +1,19 @@
-# music
+# 🎵 Music Service Screen (Flutter + Riverpod + MVVM)
 
-A new Flutter project.
+This is a Flutter-based music service app where users can explore and book custom music production services like instrumentals, film scoring, and more.
 
-## Getting Started
+ 🚀 Features
+- 🔍 Search lyrics (e.g., Punjabi Lyrics)
+- 🎹 Claim free demo for music production
+- 📋 Explore different music services
+- 📱 Bottom navigation with Home, News, TrackBox, Projects
+- 🧠 Clean MVVM Architecture using Riverpod
 
-This project is a starting point for a Flutter application.
+ 📦 Tech Stack
+- **Flutter** (UI)
+- **Riverpod** (State management)
+- **MVVM Architecture** (for clean code separation)
 
-A few resources to get you started if this is your first Flutter project:
+[Screenshot_1748535308](https://github.com/user-attachments/assets/8000e20d-45bc-41d0-a383-ca51020fbf8e)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
