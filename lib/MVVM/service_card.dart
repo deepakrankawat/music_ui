@@ -40,11 +40,11 @@ class ServiceCard extends StatelessWidget {
                   // Left Icon
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.6),
+                     
                       borderRadius: BorderRadius.circular(12),
                     ),
-                    padding: EdgeInsets.all(12),
-                    child: Image.asset(service.image1, height: 24, width: 24),
+                    
+                    child: Image.asset(service.image1, height: 47, width: 47),
                   ),
                   const SizedBox(width: 16),
       

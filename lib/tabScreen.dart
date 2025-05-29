@@ -38,7 +38,7 @@ class _TabScreenState extends State<TabScreen> {
           color: Color(0xFF121212),
           // borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
         ),
-        padding: EdgeInsets.symmetric(vertical: 6),
+        padding: EdgeInsets.symmetric(),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: List.generate(labels.length, (index) {
@@ -53,14 +53,7 @@ class _TabScreenState extends State<TabScreen> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   _selectedIndex == index
-                      ? Container(
-                        height: 10,
-                        width: 10,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          shape: BoxShape.circle,
-                        ),
-                      )
+                      ? Image.asset('images/half.png' , height: 7,width: 14,)
                       : SizedBox(),
                       SizedBox(height:10 ,),
                   ColorFiltered(
